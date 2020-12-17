@@ -40,6 +40,8 @@ $codigo= substr($cadena,rand(0,$longitud),1).
          substr($cadena,rand(0,$longitud),1);
 
 return $codigo;
+     
+     
 
 }
   function newFactura()
@@ -60,6 +62,30 @@ return $codigo;
         }
        }
     return $code;
+      // $cadena="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        // $longitud=strlen($cadena)-1;
+        // $codigo="";
+
+        // $dia_del_ano=date('z');
+        // $dia_del_ano=4;
+
+        // if(strlen($dia_del_ano)==1){
+        //     $codigo=substr($cadena,rand(0,$longitud),1).substr($cadena,rand(0,$longitud),1);
+        //     $dia_del_ano.=$codigo;
+        // }
+
+        // if(strlen($dia_del_ano)==2){
+        //     $codigo=substr($cadena,rand(0,$longitud),1).substr($cadena,rand(0,$longitud),1).substr($cadena,rand(0,$longitud),1);
+        //     $dia_del_ano.=$codigo;
+        // }
+
+        // $code_1=substr($cadena,rand(0,$longitud),1);
+        // $code_2=substr($cadena,rand(0,$longitud),1);
+        // $code_3=substr($cadena,rand(0,$longitud),1);
+
+        // $codigo_cupon=date('ym').$dia_del_ano.date('H').$code_1.date('i').$code_2.date('s').$code_3;
+
+        // return $codigo_cupon;
   }
 
   function eliminarPrecompra(){
